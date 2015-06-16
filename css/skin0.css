@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+/* 默认男生皮肤 */
+body{
+	background:url(../images/bg.jpg) repeat fixed;
+	background-size:cover;
+}
+.column{
+	background-color:#333;
+	background:url(../images/button.jpg) repeat-x;
+}
+.note_form1{
+	background:url(../images/form2.png);
+}
+	/*第一种形式*/
+.note_form2{
+	background:url(../images/form.png) transparent scroll repeat 0% 0%;
+}
+.post_note{
+	background-image:url("../images/paper_large2.png");
+}
+.top{
+	background:#000;
+}
+.note_form2_left li{
+	background:none transparent scroll repeat 0% 0%;
+	border:1px solid #ccc;
+	color:#FFF;
+}
+.post_note_title input{
+	color: #888; 
+}
+.post_note textarea{
+	color:#FFF;
+}

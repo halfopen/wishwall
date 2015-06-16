@@ -1,0 +1,246 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-family:微软雅黑；
+}
+
+.main_form{
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	width:1000px;
+}
+/*导航*/
+.column{
+	background-color: #17375e;
+	height: 30px;
+	width: 998px;
+	margin-top: 30px;
+	line-height: 30px;
+	color: white;
+	border-radius: 5px;
+}
+.column_guide{
+	margin-left: 10px;
+	width:400px;
+	display:inline-block;
+	cursor: pointer;
+}
+
+.column_guide_li:hover, .column_guide_li_click{
+	text-shadow: 0px 0px 5px #fff;
+}
+
+.colunm_guide_li{
+	cursor: pointer;
+	float: left;
+	position: relative;
+}
+
+.new_home{
+	background:url("../images/newHome.png");
+	width:118px;
+	height:30px;
+	display:inline-block;
+	float:right;
+	background-position:-32px -129px;
+}
+.new_home div{
+	width:35px;
+	height:30px;
+	display:inline-block;
+	cursor:pointer;
+}
+/*按纽一显示形式*/
+.show_form{
+	background:url("../images/newHome.png");
+	background-position:-186px -83px;
+}
+.show_form_hover{
+	background-position:-255px -83px;
+}
+.show_form_click{
+	background-position:-220px -83px;
+}
+.show_form_click_hover{
+	background-position:-288px -83px;
+}
+/*按纽二*/
+.refresh{
+	background:url("../images/newHome.png");
+	background-position:-155px -17px;
+}
+
+.refresh:hover{
+	background-position:-223px -17px;
+}
+
+/*按纽三收起与打开创意*/
+.toggle{
+	background:url("../images/newHome.png");
+	background-position:-190px -39px;
+}
+.toggle_hover{
+	background-position:-257px -39px;
+}
+.toggle_click{
+	background-position:-190px -60px;
+}
+.toggle_click_hover{
+	background-position:-257px -60px;
+}
+.note_form{
+	height:900px;
+	overflow:hidden;
+	position:relative;
+}
+/*两个主要部分*/
+.note_form1{
+	margin-top: 30px;
+	display:inline-block;
+	height: 500px;	
+	/*visibility: hidden;*/
+}
+.note_form2{
+	
+}
+.note_form1, .note_form2{
+	overflow:hidden;
+	position:absolute;
+	background-color: #EEE;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  /* For IE 8 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');  /* For IE 5.5 - 7 */
+	-moz-box-shadow: 2px 2px 10px #909090;/* for firefox */
+	-webkit-box-shadow: 2px 2px 10px #909090;/* for safari or chrome */
+	box-shadow:2px 2px 10px #909090;/* for opera or ie9 */
+	margin-top:30px;
+}
+.blue_big_link{
+	color: blue;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+	/*第一种形式*/
+.note_form2{
+	border:1px solid black;
+	background-image: url("../images/bg.png");
+}
+.note_inline{
+	width: 966px;
+	position:relative;
+	top: 30px;
+	margin-left: 30px;
+}
+
+.note_inline li{
+	height: 49px;
+	width:940px;
+}
+
+.note_inline_content{
+	margin-left: 30px;
+}
+	/*第二种形式*/
+
+.note_form2_container{
+	width: 965px;
+	position:relative;
+	margin-top: 40px;
+	margin-left: 30px;
+	background-color: white;
+	height: 750px;
+	background: none transparent scroll repeat 0% 0%;
+}
+
+.note_form2_left{
+	position: relative;
+	width: 709px;
+	float: left;
+	border-color: black;
+	
+}
+.note_form2_right{
+	position: relative;
+	width: 220px;
+	float: left;
+	border-color: black;
+}
+.note_form2_left li{
+	position: relative;
+	width: 135px;
+	height: 200px;
+	float: left;
+	border-color: black;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	border:1px solid #ccc;
+	background:white;
+}
+
+div.note_item{
+	width: 120px;
+	height: 196px;
+	position: relative;
+	float: left;
+	padding:10px;
+}
+.spin{
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 100%;
+	margin-left: -20px;
+	margin-top: -20px;
+	background:url("../images/spin/pin_5.png");
+}
+
+.post_note{
+	background-image:url("../images/paper_large.png");
+	background-repeat: no-repeat;
+	height: 500px;
+	overflow: visible;
+	position:relative;
+	top:30px;
+}
+.post_note_title input{
+	height: 25px; 
+	color: #888; 
+	font-size: 20px;
+	width: 86%;
+	margin-left: 25px;
+	width: 86%;
+	margin-top: 10px;
+	border:0px;
+	resize: none;
+	background: none transparent scroll repeat 0% 0%;
+}
+.post_note textarea{
+	margin-left: 25px;
+	height: 250px;
+	width: 86%;
+	margin-top: 10px;
+	border:0px;
+	resize: none;
+	background: none transparent scroll repeat 0% 0%;
+	font-size: 12px;
+	opacity: 1;
+}
+.post_note_submit{
+	height: 35px;
+	cursor: pointer;
+	font-size: 22px;
+	color: #444444;
+	text-align: center;
+}
+
+.note_name{
+	text-align: right;
+	font-size: 50px;
+	font-weight: bold;
+	color: #ccc;
+	position: relative;
+	top:312px;
+}
+

@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+
+/* 新手引导部分的css */
+#mask{ 
+	height:1000px; 
+	width:100%; 
+	background:#000; 
+	opacity:0.5; 
+	filter:alpha(opacity=50); 
+	position:absolute; 
+	left:0; 
+	top:0; 
+	visibility:hidden;
+	z-index:1000;
+}
+
+
+#step0{ 
+	background:url(../images/guide11.png); 
+	height:260px; width:412px; top:33px; left:44px;
+	visibility:hidden;
+}
+#step0 a{top:163px; left:162px; }
+#step0 span{ top:75px; right:32px; }
+
+#step1{ background:url(../images/guide21.png); width:647px; height:405px;top:23px; left:245px}
+#step1 a{top:308px; left:146px;}
+#step1 span{ top:195px; right:285px; }
+
+#step3{ 
+	background:url(../images/guide31.png); 
+	width:654px; 
+	height:257px;
+	top:-7px; 
+	left:-10px;
+}
+#step3 a{top:156px; left:404px;}
+#step3 span{ top:44px; right:36px; }
+
+#step2{ 
+	position:absolute;
+	background:url(../images/guide41.png); 
+	width:558px; 
+	height:348px;
+	margin-top:-45px; margin-left:-9px;
+}
+#step2 a{top:246px; left:304px;}
+#step2 span{ top:135px; right:35px; }
+#step4{
+	clear:both;
+	cursor:default;
+	background:url(../images/guide61.png);
+	width:449px;
+	height:329px;
+	margin-left:-421px;
+}
+#step4 a{
+	left:149px;
+	top:224px;
+}
+#step4 span{
+	left:333px;
+	top:111px;
+}
+#step5{ background:url(../images/guide51.png); width:397px; height:342px;top:79px; left:250px}
+#step5 a{top:245px; left:153px;}
+
+#step0, #step1, #step2, #step3,#step4, #step5{
+	visibility:hidden;
+}
+#step0, #step1, #step2, #step3, #step4, #step5, #step0 a, #step1 a, #step2 a, #step3 a, #step4 a, #step0 span, #step1 span, #step2 span, #step3 span, #step4 span, #step5 span{
+	z-index:1001;
+	position:absolute;
+}
+#step0 a, #step1 a, #step2 a, #step3 a, #step4 a, #step5 a{
+	 width:90px; height:30px;
+	 cursor:pointer;
+}
+#step0 span, #step1 span, #step2 span, #step3 span, #step4 span, #step5 span{
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}

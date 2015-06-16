@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+/*女生皮肤 */
+body{
+	background:url(../images/bg1.jpg) fixed;
+	background-size:cover;
+}
+.column{
+	background-color:#333;
+	background:url(../images/button.jpg) repeat-x;
+}
+.note_form1{
+	background:url(../images/form1.png);
+	background-color: rgba(0, 0, 0, 0.44);
+}
+	/*第一种形式*/
+.note_form2{
+	background:rgba(48, 26, 26, 0.4);
+	color:#000;
+	height:830px;
+}
+.post_note{
+	background-image:url("../images/paper_large1.png");
+}
+.top{
+	background:rgba(119, 108, 108, 0.45);
+}
+.note_form2_left li{
+	background:url(../images/paper.png);
+	background-size:cover;
+	background-position:-1px -1px;
+	width:135px;
+	height:181px;
+	border:0;
+	color:#FFF;
+}
+.post_note_title input{
+	color: #006;;
+	width:188px;
+}
+.post_note textarea{
+	color:#000;
+}
+
+div.note_item{
+	height:116px;
+}
+

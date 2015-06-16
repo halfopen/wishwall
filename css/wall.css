@@ -1,0 +1,311 @@
+/*首页css，虽然说把所有css放到一个文件中可以减少http请求，但是修改代码太麻烦了，所以就分开文件了*/
+.main_container{
+	text-align:center;
+}
+.main_form{
+	width:1000px;
+	height:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+
+/*导航*/
+.column{
+	height: 30px;
+	width: 960px;
+	margin-top: 30px;
+	line-height: 30px;
+	color: white;
+	border-radius: 5px;
+}
+.column_guide{
+	margin-left: 10px;
+	width:400px;
+	display:inline-block;
+}
+.column_guide_li:hover, .column_guide_li_click{
+	text-shadow: 0px 0px 5px #FFF;
+	color:#090;
+}
+.colunm_guide_li{
+	cursor: pointer;
+	float: left;
+	position: relative;
+}
+
+
+/*活动规则按钮*/
+.new_home{
+	width:40px;
+	height:30px;
+	display:inline-block;
+	float:right;
+	background-position:-32px -129px;
+	margin-top:45px;
+}
+.new_home div{
+	width:30px;
+	height:30px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+
+/*按纽一4种显示形式*/
+.show_form{
+	background:url("../images/newHome.png");
+	background-position:-186px -83px;
+}
+.show_form_hover{
+	background-position:-255px -83px;
+}
+.show_form_click{
+	background-position:-220px -83px;
+}
+.show_form_click_hover{
+	background-position:-288px -83px;
+}
+
+
+/*两个主要部分*/
+.note_form1{
+	margin-top: 30px;
+	display:inline-block;
+	visibility: hidden;
+	height:500px;
+	color:#FFF;
+}
+.note_form1, .note_form2{
+	overflow:hidden;
+	position:absolute;
+	margin-top:0px;
+	width:960px;
+}
+.blue_big_link{
+	color: blue;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/*第一种形式，活动说明文档*/
+.note_form2{
+	height:990px;
+}
+.note_form2 form{
+	clear:both;
+	text-align:center;
+	margin:0 auto;
+}
+
+
+/*第二种形式，心愿墙主体*/
+.note_form2_container{
+	position:relative;
+	margin-top: 40px;
+	margin-left: 30px;
+	background-color: white;
+	height: 720px;
+	background: none transparent scroll repeat 0% 0%;
+}
+
+.note_form2_left{
+	position: relative;
+	width: 650px;
+	float: left;
+	border-color: black;
+	
+}
+.note_form2_right{
+	position: relative;
+	width:270px;
+	float: left;
+	border-color: black;
+}
+.note_form2_left li{
+	position: relative;
+	width: 135px;
+	height:200px;
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	word-wrap:break-word;
+	overflow:visible;
+}
+div.note_item{
+	width: 120px;
+	position: relative;
+	float: left;
+	padding:10px;
+	height:160px;
+	overflow:hidden;
+	/*-webkit-transform:skew(-5deg);*/
+}
+/*图钉*/
+.spin{
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 100%;
+	margin-left: -10px;
+	margin-top: -19px;
+	background:url("../images/spin/pin_5.png");
+	cursor:pointer;
+}
+.take_down{
+	width:30px;
+	height:30px;
+}
+
+/*写心愿*/
+.post_note{
+	background-repeat: no-repeat;
+	height: 500px;
+	overflow: visible;
+	position:relative;
+	top:30px;
+}
+.post_note_title input{
+	height: 25px; 
+	font-size: 20px;
+	width:188px;
+	margin-left: 25px;
+	width: 86%;
+	margin-top: 10px;
+	border:0px;
+	resize: none;
+	background: none transparent scroll repeat 0% 0%;
+}
+.post_note textarea{
+	margin-left: 25px;
+	height: 198px;
+	width:200px;
+	margin-top: 10px;
+	border:0px;
+	resize: none;
+	background: none transparent scroll repeat 0% 0%;
+	font-size: 12px;
+	opacity: 1;
+}
+.post_note_submit{
+	height: 35px;
+	cursor: pointer;
+	font-size: 22px;
+	color:#0F0;
+	text-align: center;
+}
+.note_name{
+	text-align: right;
+	font-size: 50px;
+	font-weight: bold;
+	color: #ccc;
+	position: relative;
+	top:312px;
+}
+
+
+/*音乐播放器*/
+.musicbox{
+	background:url(../images/musicbox.png);
+	width:396px;
+	height:31px;
+	position:absolute;
+	z-index:23333;
+	left:4px;
+	top:117px;
+}
+.music_name, .music_pause, .music_play, .music_id, .music_pre, .music_next, .music_menu{
+	position:absolute;
+	height:31px;
+	cursor:pointer;
+	overflow:hidden;
+}
+.music_play, .music_pause{
+	background:url(../images/musicbox.png);
+	width:31px;
+	left:105px;
+}
+.music_id{
+	width:31px;
+	left:57px;
+	color:white;
+}
+.music_name{
+	left:158px;
+	width:130px;
+	margin:auto;
+	height:25px;
+}
+.music_menu{
+	width:31px;
+	left:30px;
+	overflow:hidden;
+}
+.music_menu li{
+	width:200px;
+	height:30px;
+	position:relative;
+	/*自觉抵制ie*/
+	background:rgba(38, 15, 45, 0.57);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33260f2d,endColorstr=#33260f2d); 
+	color:#FFF;
+	font-size:16px;
+	text-align:left;
+}
+.music_menu li:hover{
+	/*自觉抵制ie*/
+	background:rgba(179, 205, 198, 0.57);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33b3cdc6,endColorstr=#33b3cdc6); 
+}
+.music_pre{
+	width:31px;
+	left:81px;
+}
+.music_next{
+	width:31px;
+	left:128px;
+}
+.music_play_hover, .music_menu_hover, .music_pause_hover, .music_id_hover, .music_pre_hover, .music_next_hover, .music_menu_hover{
+	background:url(../images/musicbox.png);
+}
+.music_play{
+	background-position:289px 124px;
+}
+.music_play_hover{
+	background-position:289px 94px;
+}
+.music_pause{
+	background-position:289px 64px;
+}
+.music_pause_hover{
+	background-position:289px 31px;
+}
+.music_id{
+	width:31px;
+	left:57px;
+	color:white;
+}
+.music_name{
+	left:158px;
+	width:130px;
+	margin:auto;
+	height:25px;
+}
+.music_menu_hover{
+	width:26px;
+	left:30px;
+	background-position:365px 94px;
+	overflow:visible;
+}
+.music_pre_hover{
+	width:31px;
+	left:81px;
+	background-position:313px 94px;
+}
+.music_next_hover{
+	width:31px;
+	left:128px;
+	background-position:268px 94px;
+}

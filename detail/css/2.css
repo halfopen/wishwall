@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	font-family:"微软雅黑";
+	text-decoration:none;
+	list-style:none;	
+	color:#FFF;
+}
+body{
+	background:url(../../images/bg.jpg) repeat fixed;
+}
+.main_container{
+	text-align:center;
+	background:none transparent scroll repeat 0% 0%;
+	color:#FFF;
+}
+.main_div{
+	width:1000px;
+	position:relative;
+	top:30px;
+	margin:0 auto;
+	color:#CCC;
+	font-weight:bold;
+	height:630px;
+	text-align:left;
+	padding:10px;
+}
+
+#wish_title, #wish_info, #wish_content{
+	position:relative;
+}
+.left_container{
+	width:450px;
+	position:relative;
+	float:left;
+	top:-45px;
+}
+#wish_detail{
+	background:url(../images/board-out.png);
+	width:350px;
+	height:290px;
+	background-size:cover;
+}
+
+#wish_container{
+	position:relative;
+	top:80px;
+}
+#wish_title{
+	left:70px;
+}
+#wish_info{
+	left:40px;
+	font-size:13px;
+}
+#wish_content{
+	font-size:16px;
+	left:30px;
+}
+.right_container{
+	position:relative;
+	float:left;
+	width:545px;
+	height:600px;
+}
+#comment_area{
+	width:540px;
+	height:100px;
+	background:rgba(0, 0, 0, 0.33);
+}
+#add_comment{
+	position:absolute;
+	top:96px;
+	left:466px;
+	width:60px;
+	height:25px;
+}
+#comment_list{
+	height:400px;
+	overflow-x:hidden;
+	overflow:auto;
+	background:rgba(0, 0, 0, 0.57);
+}
+.mark{
+	height:135px;
+	background:rgba(0, 0, 0, 0.45);
+	width:340px;
+}
+
+
+
+.left_title, .mark_star, .mark_num, .mark_result{
+	height:30px; 
+	line-height:30px; 
+	font-size:15px; 
+	color:#FFF;
+	display:inline-block;
+	position:relative;
+	top:0px;
+	 
+}
+
+.mark_result{
+	top:-6px;
+	width:300px;
+	font-weight:lighter;
+}
+.mark_num{
+	color:#F00;
+	font-size:16px;
+	top:-6px;
+	font-weight:lighter;
+}
+.mark_star:hover,.marked_star{
+	top:-24px;
+	cursor:pointer;
+}
+.mark_star_container{
+	height:24px; 
+	display:inline-block; 
+	overflow:hidden;
+}
+.mark_star img{
+	margin-left:-4px;
+}
+.mark_parent{
+	width:740px;
+}
+.comment_content{
+	font-size:14px;
+	font-weight:normal;
+}
+.a_name{
+	width:50px; 
+	position:relative; 
+	color:#09F; 
+	font-size:12px; 
+	font-weight:normal; 
+	text-align:center;
+	top:-17px;
+}
+div .comment_guide{
+	background:#EEE; 
+	width:456px; 
+	left:50%; 
+	position:relative; 
+	margin-left:-228px; 
+	height:32px; 
+	text-align:center;
+	padding:2px;
+}
+div .comment_guide li{
+	display:inline-block;
+	width:17px;
+	line-height:28px;
+	border:1px solid #06F;
+	color:#06F;
+	cursor:pointer;
+	background:#FFF;
+	height:27px;
+	margin-left:-1px;
+	font-weight:normal;
+}
+
+.user_info{
+	width:430px;
+	height:148px;
+	position:relative;
+	float:left;
+	background:rgba(0, 0, 0, 0.45);
+}
+.user{
+	float:left;
+	width:200px;
+	position:relative;
+	overflow:auto;
+	overflow-x:hidden;
+	font-size:16px;
+}
+.user_head{
+	width:50px;
+	height:50px;
+	position:relative;
+}
